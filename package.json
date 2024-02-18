@@ -1,0 +1,17 @@
+{
+  "name": "css_sass",
+  "version": "1.0.0",
+  "description": "Landing pages",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass Natours/sass/main.scss Natours/css/style.css -w"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
