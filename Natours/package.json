@@ -4,7 +4,7 @@
   "description": "Landing pages",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass Natours/sass/main.scss Natours/css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css --watch"
   },
   "author": "Me",
   "license": "ISC",
